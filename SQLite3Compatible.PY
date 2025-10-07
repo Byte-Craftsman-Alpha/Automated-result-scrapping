@@ -727,7 +727,7 @@ if __name__ == "__main__":
     
     # Example student list (roll_no, dob)
     students = [
-        ("2514670010035", "02/07/2006"),
+        ("ROLL_NUMBER", "DD-MM-YYYY"),
         # Add more students here
     ]
     
@@ -752,4 +752,5 @@ if __name__ == "__main__":
     print(f"\nDatabase Statistics: {db_stats}")
     
     # Export data to CSV (optional)
+
     # scraper.export_to_csv()
