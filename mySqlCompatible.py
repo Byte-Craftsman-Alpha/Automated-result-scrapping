@@ -649,7 +649,7 @@ if __name__ == "__main__":
     
     # Example student list (roll_no, dob)
     students = [
-        ("2514670010038", "05/11/2006"),
+        ("ROLL_NUMBER", "DD-MM-YYYY"),
         # Add more students here
     ]
     
@@ -667,4 +667,5 @@ if __name__ == "__main__":
     # Get failed records for retry
     failed = scraper.get_failed_records(semester=2)
     if failed:
+
         print(f"\nFailed roll numbers for semester 2: {failed}")
